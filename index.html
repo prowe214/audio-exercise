@@ -3,60 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <audio id="audio_a" src="http://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg"></audio>
-    <audio id="audio_b" src="http://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg"></audio>
-    <audio id="audio_c" src="http://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg"></audio>
-    <audio id="audio_d" src="http://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg"></audio>
-    <audio id="audio_e" src="http://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg"></audio>
-    <audio id="audio_f" src="http://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg"></audio>
-    <audio id="audio_g" src="http://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg"></audio>
-    <audio id="audio_h" src="http://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg"></audio>
-    <audio id="audio_i" src="http://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg"></audio>
-    <audio id="audio_j" src="http://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg"></audio>
-    <audio id="audio_k" src="http://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg"></audio>
-    <audio id="audio_l" src="http://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg"></audio>
-    <audio id="audio_m" src="http://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg"></audio>
-    <audio id="audio_n" src="http://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg"></audio>
-    <audio id="audio_o" src="http://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg"></audio>
-    <audio id="audio_p" src="http://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg"></audio>
-    <audio id="audio_q" src="http://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg"></audio>
-    <audio id="audio_r" src="http://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg"></audio>
-    <audio id="audio_s" src="http://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg"></audio>
-    <audio id="audio_t" src="http://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg"></audio>
-    <audio id="audio_u" src="http://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg"></audio>
-    <audio id="audio_v" src="http://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg"></audio>
-    <audio id="audio_w" src="http://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg"></audio>
-    <audio id="audio_x" src="http://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg"></audio>
-    <audio id="audio_y" src="http://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg"></audio>
-    <audio id="audio_z" src="http://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg"></audio>
-    <button data-audio="a" onclick="play(this.dataset.audio)">A</button>
-    <button data-audio="b" onclick="play(this.dataset.audio)">B</button>
-    <button data-audio="c" onclick="play(this.dataset.audio)">C</button>
-    <button data-audio="d" onclick="play(this.dataset.audio)">D</button>
-    <button data-audio="e" onclick="play(this.dataset.audio)">E</button>
-    <button data-audio="f" onclick="play(this.dataset.audio)">F</button>
-    <button data-audio="g" onclick="play(this.dataset.audio)">G</button>
-    <button data-audio="h" onclick="play(this.dataset.audio)">H</button>
-    <button data-audio="i" onclick="play(this.dataset.audio)">I</button>
-    <button data-audio="j" onclick="play(this.dataset.audio)">J</button>
-    <button data-audio="k" onclick="play(this.dataset.audio)">K</button>
-    <button data-audio="l" onclick="play(this.dataset.audio)">L</button>
-    <button data-audio="m" onclick="play(this.dataset.audio)">M</button>
-    <button data-audio="n" onclick="play(this.dataset.audio)">N</button>
-    <button data-audio="o" onclick="play(this.dataset.audio)">O</button>
-    <button data-audio="p" onclick="play(this.dataset.audio)">P</button>
-    <button data-audio="q" onclick="play(this.dataset.audio)">Q</button>
-    <button data-audio="r" onclick="play(this.dataset.audio)">R</button>
-    <button data-audio="s" onclick="play(this.dataset.audio)">S</button>
-    <button data-audio="t" onclick="play(this.dataset.audio)">T</button>
-    <button data-audio="u" onclick="play(this.dataset.audio)">U</button>
-    <button data-audio="v" onclick="play(this.dataset.audio)">V</button>
-    <button data-audio="w" onclick="play(this.dataset.audio)">W</button>
-    <button data-audio="x" onclick="play(this.dataset.audio)">X</button>
-    <button data-audio="y" onclick="play(this.dataset.audio)">Y</button>
-    <button data-audio="z" onclick="play(this.dataset.audio)">Z</button>
+    <div class="container">
+      <audio id="audio_a" src="http://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg"></audio>
+      <audio id="audio_b" src="http://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg"></audio>
+      <audio id="audio_c" src="http://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg"></audio>
+      <audio id="audio_d" src="http://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg"></audio>
+      <audio id="audio_e" src="http://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg"></audio>
+      <audio id="audio_f" src="http://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg"></audio>
+      <audio id="audio_g" src="http://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg"></audio>
+      <audio id="audio_h" src="http://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg"></audio>
+      <audio id="audio_i" src="http://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg"></audio>
+      <audio id="audio_j" src="http://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg"></audio>
+      <audio id="audio_k" src="http://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg"></audio>
+      <audio id="audio_l" src="http://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg"></audio>
+      <audio id="audio_m" src="http://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg"></audio>
+      <audio id="audio_n" src="http://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg"></audio>
+      <audio id="audio_o" src="http://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg"></audio>
+      <audio id="audio_p" src="http://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg"></audio>
+      <audio id="audio_q" src="http://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg"></audio>
+      <audio id="audio_r" src="http://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg"></audio>
+      <audio id="audio_s" src="http://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg"></audio>
+      <audio id="audio_t" src="http://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg"></audio>
+      <audio id="audio_u" src="http://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg"></audio>
+      <audio id="audio_v" src="http://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg"></audio>
+      <audio id="audio_w" src="http://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg"></audio>
+      <audio id="audio_x" src="http://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg"></audio>
+      <audio id="audio_y" src="http://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg"></audio>
+      <audio id="audio_z" src="http://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg"></audio>
+      <button data-audio="a" onclick="play(this.dataset.audio)">A</button>
+      <button data-audio="b" onclick="play(this.dataset.audio)">B</button>
+      <button data-audio="c" onclick="play(this.dataset.audio)">C</button>
+      <button data-audio="d" onclick="play(this.dataset.audio)">D</button>
+      <button data-audio="e" onclick="play(this.dataset.audio)">E</button>
+      <button data-audio="f" onclick="play(this.dataset.audio)">F</button>
+      <button data-audio="g" onclick="play(this.dataset.audio)">G</button>
+      <button data-audio="h" onclick="play(this.dataset.audio)">H</button>
+      <button data-audio="i" onclick="play(this.dataset.audio)">I</button>
+      <button data-audio="j" onclick="play(this.dataset.audio)">J</button>
+      <button data-audio="k" onclick="play(this.dataset.audio)">K</button>
+      <button data-audio="l" onclick="play(this.dataset.audio)">L</button>
+      <button data-audio="m" onclick="play(this.dataset.audio)">M</button>
+      <button data-audio="n" onclick="play(this.dataset.audio)">N</button>
+      <button data-audio="o" onclick="play(this.dataset.audio)">O</button>
+      <button data-audio="p" onclick="play(this.dataset.audio)">P</button>
+      <button data-audio="q" onclick="play(this.dataset.audio)">Q</button>
+      <button data-audio="r" onclick="play(this.dataset.audio)">R</button>
+      <button data-audio="s" onclick="play(this.dataset.audio)">S</button>
+      <button data-audio="t" onclick="play(this.dataset.audio)">T</button>
+      <button data-audio="u" onclick="play(this.dataset.audio)">U</button>
+      <button data-audio="v" onclick="play(this.dataset.audio)">V</button>
+      <button data-audio="w" onclick="play(this.dataset.audio)">W</button>
+      <button data-audio="x" onclick="play(this.dataset.audio)">X</button>
+      <button data-audio="y" onclick="play(this.dataset.audio)">Y</button>
+      <button data-audio="z" onclick="play(this.dataset.audio)">Z</button>
+    </div>
+
   </body>
   <script src="app.js" type="text/javascript"></script>
 </html>
